@@ -1,0 +1,30 @@
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, #d4d3dd, #efefbb);
+}
+
+.pokemon-card {
+  background-color: rgb(235, 230, 230) !important;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon-card > img {
+  background-color: rgba(105, 27, 27, 0.6);
+  border-radius: 50%;
+  height: 13rem;
+}
+.card-title,
+.modal-title {
+  text-transform: capitalize;
+}
